@@ -99,12 +99,12 @@ function mergeLists(linkedListArr) {
 }
 
 
-// tạo danh sách liên kết đã có sẵn
-const arr1 = [1, 2, 3, 4, 5];
-const linkList = createLinkedList(arr1);
+
 console.log("BÀI 1 ");
 
 console.log("Danh sách liên kết ban đầu:");
+const arr1 = [1, 2, 3, 4, 5];
+const linkList = createLinkedList(arr1);
 display(linkList);
 
 const a = 2;
