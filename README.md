@@ -1,4 +1,4 @@
-# test-linklist
+# demo-number-phone
 
 Hướng dẫn chạy dự án
 1. Clone dự án từ repository:
