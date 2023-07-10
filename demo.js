@@ -24,7 +24,7 @@ app.post('/api/data', (req, res) => {
       } else if (vina.includes(prefix)) {
         return res.status(200).json({ message: "Vina" });
       } else {
-        return res.status(404).json({ message: " phone numbers that do not belong to the above 3 carriers" });
+        return res.status(404).json({ message: "phone number that do not belong to the above 3 carriers" });
       }
     } else {
       return res.status(404).json({ message: "number phone not found" });
